@@ -211,7 +211,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/desktop.jpeg": {
+	"/src/assets/img/desktop.jpg": {
 		"ft": 16384,
 		"iS": 177368,
 		"jF": 0,
@@ -233,11 +233,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/src/assets/img/grapgh.png": {
+	"/src/assets/img/graph.png": {
 		"ft": 32768,
 		"iS": 4181,
 		"oA": 0,
-		"oAP": "/dist/assets/img/grapgh.png",
+		"oAP": "/dist/assets/img/graph.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -409,7 +409,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 596221338.10911703
+	"lastBuiltDate": 596226521.09063601
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
