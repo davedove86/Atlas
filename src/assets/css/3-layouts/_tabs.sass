@@ -1,0 +1,45 @@
+// Tab Wrap
+.tabs
+  display: flex
+  justify-content: center
+
+
+// Style tab links
+.tablink
+  background-color: none
+  color: $primary-color
+  border: #5ec6cf 2px solid
+  border-radius: 3px
+  outline: none
+  cursor: pointer
+  padding: 12px 22px
+  margin: 10px
+  font-size: 12px
+  text-transform: uppercase
+
+  &:hover
+    background-color: $primary-color-hover
+    color: #fff
+
+  &:focus  
+    background-color: $primary-color-hover
+    color: #ffffff
+
+// Style the tab content (and add height:100% for full page content)
+
+.tabcontent
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-wrap: wrap
+  padding: 80px 10px
+
+  .tab-content-item
+    width: 450px
+    padding: 30px
+
+    .tab-img
+      max-width: 370px
+    
+    .tab-icon
+      max-width: 80px

@@ -141,6 +141,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/assets/css/3-layouts/_tabs.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dist/assets/css/3-layouts/_tabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/assets/css/4-pages/_home.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -409,7 +422,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 596226521.09063601
+	"lastBuiltDate": 596411399.95178199
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
