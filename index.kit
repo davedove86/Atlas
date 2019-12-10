@@ -29,7 +29,7 @@
     </div>
 
     <!-- Features Section -->
-    <section>
+    <section id="features">
       <h2>Features</h2>
       <p class="section-kicker">We make it possible for you to make beautiful interactive maps.</p>
 
@@ -58,57 +58,93 @@
       <div class="desktop-image">
         <img src="/assets/img/desktop.jpg" alt="Atlas desktop verison">
       </div>
+
+      <!-- About Us Section -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p class="section-kicker">We are a team dedicated to making the best maps for your project.</p>
+      </section>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tablink" onclick="openPage('who', this)" id="defaultOpen">Who we are</button>
+        <button class="tablink" onclick="openPage('what', this)">What we do</button>
+        <button class="tablink" onclick="openPage('how', this)">How we do it</button>
+      </div>
+      <div id="who" class="tabcontent">
+        <div class="tab-content-item">
+          <img class="tab-img" src="/assets/img/macbook-1.png" alt="Atlas MacBook">
+        </div>
+        <div class="tab-content-item">
+          <img class="tab-icon" src="/assets/img/person.png" alt="Person Icon">
+          <h3>We are more than a software company.</h3>
+          <p>Atlas is a family of some of the brightest minds who strive to make the best maps platform possible.</p>
+        </div>
+      </div>
+
+      <div id="what" class="tabcontent">
+        <div class="tab-content-item">
+          <img class="tab-img" src="/assets/img/macbook-2.png" alt="Atlas MacBook">
+        </div>
+        <div class="tab-content-item">
+          <img class="tab-icon" src="/assets/img/location.png" alt="Person Icon">
+          <h3>Make custom, interactive maps for your website or app.</h3>
+          <p>We’re the best in the world at making high quality maps for some of the biggest names in the industry.</p>
+        </div>
+      </div>
+
+      <div id="how" class="tabcontent">
+        <div class="tab-content-item">
+          <img class="tab-img" src="/assets/img/macbook-3.png" alt="Atlas MacBook">
+        </div>
+        <div class="tab-content-item">
+          <img class="tab-icon" src="/assets/img/graph.png" alt="Person Icon">
+          <h3>The power of Atlas is in the numbers.</h3>
+          <p>We carry the load of millions of map interactions a day and have a perfect record with zero down-time.</p>
+        </div>
+      </div>
     </section>
-
-    <!-- About Us Section -->
-    <section>
-      <h2>About Us</h2>
-      <p class="section-kicker">We are a team dedicated to making the best maps for your project.</p>
-    </section>
-
-    <!-- Tabs -->
-    <div class="tabs">
-      <button class="tablink" onclick="openPage('who', this)" id="defaultOpen">Who we are</button>
-      <button class="tablink" onclick="openPage('what', this)">What we do</button>
-      <button class="tablink" onclick="openPage('how', this)">How we do it</button>
-    </div>
-    <div id="who" class="tabcontent">
-      <div class="tab-content-item">
-        <img class="tab-img" src="/assets/img/macbook-1.png" alt="Atlas MacBook">
-      </div>
-      <div class="tab-content-item">
-        <img class="tab-icon" src="/assets/img/person.png" alt="Person Icon">
-        <h3>We are more than a software company.</h3>
-        <p>Atlas is a family of some of the brightest minds who strive to make the best maps platform possible.</p>
-      </div>
-    </div>
-
-    <div id="what" class="tabcontent">
-      <div class="tab-content-item">
-        <img class="tab-img" src="/assets/img/macbook-2.png" alt="Atlas MacBook">
-      </div>
-      <div class="tab-content-item">
-        <img class="tab-icon" src="/assets/img/location.png" alt="Person Icon">
-        <h3>Make custom, interactive maps for your website or app.</h3>
-        <p>We’re the best in the world at making high quality maps for some of the biggest names in the industry.</p>
-      </div>
-    </div>
-
-    <div id="how" class="tabcontent">
-      <div class="tab-content-item">
-        <img class="tab-img" src="/assets/img/macbook-3.png" alt="Atlas MacBook">
-      </div>
-      <div class="tab-content-item">
-        <img class="tab-icon" src="/assets/img/graph.png" alt="Person Icon">
-        <h3>The power of Atlas is in the numbers.</h3>
-        <p>We carry the load of millions of map interactions a day and have a perfect record with zero down-time.</p>
-      </div>
-    </div>
 
   </div>
 
+  <!-- Join Us Banner -->
+  <div class="banner">
+    <div class="banner-wrap">
+      <p>Talk to our team about using Atlas for your project.</p>
+      <a href="#contact"><button>Join Us Today</button></a>
+    </div>
+  </div>
 
+  <div class="myContain">
+    <!-- Team Section -->
+    <section id="team">
+      <h2>Team Members</h2>
 
+      <div class="team-wrap">
+        <div class="team-member">
+          <img src="/assets/img/rich.jpg">
+          <h3 class="team-name">Rich Kramer</h3>
+          <h4 class="team-title">CEO & Founder</h4>
+          <p class="team-description">Coordinates product and business development with a master's degree in
+            international development.</p>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/jordan.jpg">
+          <h3 class="team-name">Jordan Whatley</h3>
+          <h4 class="team-title">CFO & Founder</h4>
+          <p class="team-description">CManages everything behind the scenes from budget planning to our daily finances
+            and overall team logistics.</p>
+        </div>
+        <div class="team-member">
+          <img src="/assets/img/elizabeth.jpg">
+          <h3 class="team-name">Elizabeth Williams</h3>
+          <h4 class="team-title">Data</h4>
+          <p class="team-description">Develops and implements open data strategies and solutions on behalf of
+            multinational organizations.</p>
+        </div>
+      </div>
+    </section>
+  </div>
 
   <!-- @include footer.kit -->
   <script src="./assets/js/functions-min.js"></script>

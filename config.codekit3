@@ -235,7 +235,7 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/src/assets/img/elizabeth.jpeg": {
+	"/src/assets/img/elizabeth.jpg": {
 		"ft": 16384,
 		"iS": 49427,
 		"jF": 0,
@@ -257,7 +257,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/jordan.jpeg": {
+	"/src/assets/img/jordan.jpg": {
 		"ft": 16384,
 		"iS": 44346,
 		"jF": 0,
@@ -356,7 +356,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/rich.jpeg": {
+	"/src/assets/img/rich.jpg": {
 		"ft": 16384,
 		"iS": 33658,
 		"jF": 0,
@@ -422,7 +422,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 596411399.95178199
+	"lastBuiltDate": 597693134.49947298
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
