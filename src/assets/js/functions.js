@@ -1,33 +1,35 @@
 // Navigation
-let mainNav = document.getElementById("js-menu");
-let navBarToggle = document.getElementById("js-navbar-toggle");
+const mainNav = document.getElementById('js-menu');
+const navBarToggle = document.getElementById('js-navbar-toggle');
 
-navBarToggle.addEventListener("click", function() {
-  mainNav.classList.toggle("active");
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
 });
 
 // Tabs
 function openPage(pageName, elmnt, color) {
   // Hide all elements with class="tabcontent" by default */
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
+  let i;
+  let tabcontent;
+  let tablinks;
+  tabcontent = document.getElementsByClassName('tabcontent');
   for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    tabcontent[i].style.display = 'none';
   }
 
   // Remove the background color of all tablinks/buttons
-  tablinks = document.getElementsByClassName("tablink");
+  tablinks = document.getElementsByClassName('tablink');
   for (i = 0; i < tablinks.length; i++) {
     // tablinks[i].style.backgroundColor = "red";
   }
 
   // Show the specific tab content
-  document.getElementById(pageName).style.display = "flex";
+  document.getElementById(pageName).style.display = 'flex';
 
   // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+document.getElementById('defaultOpen').click();
 // document.getElementById("defaultOpen").style.background = "#5ec6cf";

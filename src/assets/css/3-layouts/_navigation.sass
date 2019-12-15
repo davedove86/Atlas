@@ -9,6 +9,7 @@
 .main-nav
   list-style-type: none
   display: none
+  margin: 0
 
 .nav-links, .logo
   text-decoration: none
@@ -16,7 +17,13 @@
 
 .main-nav li
   text-align: center
-  margin: 15px auto
+  margin-bottom: 12px
+
+  .nav-links
+
+    &:hover
+      border-bottom: 3px $primary-color solid
+      padding-bottom: 2px
 
 .logo
   display: inline-block
