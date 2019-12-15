@@ -246,6 +246,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/assets/img/favicon.png": {
+		"ft": 32768,
+		"iS": 829,
+		"oA": 0,
+		"oAP": "/dist/assets/img/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/graph.png": {
 		"ft": 32768,
 		"iS": 4181,
@@ -400,6 +411,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/webclip.png": {
+		"ft": 32768,
+		"iS": 2204,
+		"oA": 0,
+		"oAP": "/dist/assets/img/webclip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/js/functions.js": {
 		"bF": 0,
 		"ft": 64,
@@ -422,7 +444,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 597693134.49947298
+	"lastBuiltDate": 598100809.9052
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
